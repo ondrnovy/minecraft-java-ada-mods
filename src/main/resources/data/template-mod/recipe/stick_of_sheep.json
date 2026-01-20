@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " G ",
+    " S "
+  ],
+  "key": {
+    "W": "minecraft:white_wool",
+    "G": "minecraft:enchanted_golden_apple",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "template-mod:stick_of_sheep",
+    "count": 1
+  }
+}

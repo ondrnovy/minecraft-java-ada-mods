@@ -1,5 +1,7 @@
 package com.example
 
+import com.example.network.DashPacketHandler
+import com.example.registry.ModItems
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
@@ -11,5 +13,11 @@ object TemplateMod : ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		logger.info("Hello Fabric world!")
+
+		// Register items
+		ModItems.register()
+
+		// Register network packets
+		DashPacketHandler.register()
 	}
 }

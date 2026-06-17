@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ROY",
+    "GEB",
+    "SDP"
+  ],
+  "key": {
+    "R": "minecraft:red_dye",
+    "O": "minecraft:orange_dye",
+    "Y": "minecraft:yellow_dye",
+    "G": "minecraft:lime_dye",
+    "E": "minecraft:enchanted_golden_apple",
+    "B": "minecraft:light_blue_dye",
+    "S": "minecraft:stick",
+    "D": "minecraft:diamond",
+    "P": "minecraft:purple_dye"
+  },
+  "result": {
+    "id": "template-mod:rainbow_spear",
+    "count": 1
+  }
+}

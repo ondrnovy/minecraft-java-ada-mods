@@ -1,5 +1,6 @@
 package com.example.registry
 
+import com.example.entity.ModEntities
 import com.example.item.HamsterItem
 import com.example.item.RainbowSpearItem
 import com.example.item.StickOfSheepItem
@@ -12,7 +13,7 @@ import net.minecraft.world.entity.EquipmentSlotGroup
 import net.minecraft.world.entity.ai.attributes.AttributeModifier
 import net.minecraft.world.entity.ai.attributes.Attributes
 import net.minecraft.world.item.Item
-import net.minecraft.world.item.TridentItem
+import net.minecraft.world.item.SpawnEggItem
 import net.minecraft.world.item.component.ItemAttributeModifiers
 
 object ModItems {
@@ -41,6 +42,14 @@ object ModItems {
                 .stacksTo(1)
                 .durability(500)
                 .attributes(createHamsterAttributes())
+                .setId(key)
+        )
+    }
+
+    val HAMSTER_MOB_SPAWN_EGG: Item = registerItem("hamster_mob_spawn_egg") { key ->
+        SpawnEggItem(
+            Item.Properties()
+                .spawnEgg(ModEntities.HAMSTER_MOB)
                 .setId(key)
         )
     }

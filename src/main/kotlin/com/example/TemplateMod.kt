@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.entity.ModEntities
 import com.example.item.HamsterItem
 import com.example.network.DashPacketHandler
 import com.example.registry.ModItems
@@ -16,6 +17,9 @@ object TemplateMod : ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		logger.info("Hello Fabric world!")
+
+		// Register entities
+		ModEntities.register()
 
 		// Register items
 		ModItems.register()

@@ -1,5 +1,7 @@
 {
   "item.template-mod.rainbow_spear": "Rainbow Spear",
   "item.template-mod.stick_of_sheep": "Stick of Sheep",
-  "item.template-mod.hamster": "Hamster"
+  "item.template-mod.hamster": "Hamster",
+  "item.template-mod.hamster_mob_spawn_egg": "Hamster Spawn Egg",
+  "entity.template-mod.hamster_mob": "Hamster"
 }

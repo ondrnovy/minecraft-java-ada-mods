@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "template-mod:item/red_diamond_pickaxe"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "template-mod:red_diamond",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "template-mod:red_diamond" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "template-mod:red_diamond" }
+    ]
+  }
+}

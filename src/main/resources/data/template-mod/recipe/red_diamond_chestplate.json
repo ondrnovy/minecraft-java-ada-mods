@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D D",
+    "DDD",
+    "DDD"
+  ],
+  "key": { "D": "template-mod:red_diamond" },
+  "result": { "id": "template-mod:red_diamond_chestplate", "count": 1 }
+}

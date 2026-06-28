@@ -3,5 +3,15 @@
   "item.template-mod.stick_of_sheep": "Stick of Sheep",
   "item.template-mod.hamster": "Hamster",
   "item.template-mod.hamster_mob_spawn_egg": "Hamster Spawn Egg",
-  "entity.template-mod.hamster_mob": "Hamster"
+  "entity.template-mod.hamster_mob": "Hamster",
+  "item.template-mod.red_diamond": "Red Diamond",
+  "item.template-mod.red_diamond_sword": "Red Diamond Sword",
+  "item.template-mod.red_diamond_pickaxe": "Red Diamond Pickaxe",
+  "item.template-mod.red_diamond_axe": "Red Diamond Axe",
+  "item.template-mod.red_diamond_shovel": "Red Diamond Shovel",
+  "item.template-mod.red_diamond_hoe": "Red Diamond Hoe",
+  "item.template-mod.red_diamond_helmet": "Red Diamond Helmet",
+  "item.template-mod.red_diamond_chestplate": "Red Diamond Chestplate",
+  "item.template-mod.red_diamond_leggings": "Red Diamond Leggings",
+  "item.template-mod.red_diamond_boots": "Red Diamond Boots"
 }

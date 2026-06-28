@@ -3,6 +3,7 @@ package com.example
 import com.example.entity.ModEntities
 import com.example.item.HamsterItem
 import com.example.network.DashPacketHandler
+import com.example.network.HamsterEatPacketHandler
 import com.example.registry.ModItems
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents
@@ -26,6 +27,7 @@ object TemplateMod : ModInitializer {
 
 		// Register network packets
 		DashPacketHandler.register()
+		HamsterEatPacketHandler.register()
 
 		// Register retaliation detection for Hamster item
 		ServerLivingEntityEvents.AFTER_DAMAGE.register { target, source, _, _, _ ->

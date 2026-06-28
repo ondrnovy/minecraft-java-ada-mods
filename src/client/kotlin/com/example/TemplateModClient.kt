@@ -15,6 +15,9 @@ object TemplateModClient : ClientModInitializer {
 		// Register the dash handler for double-tap space detection
 		DashHandler.register()
 
+		// Register hamster eat handler (H key while riding)
+		HamsterEatHandler.register()
+
 		// Register hamster mob model layer and renderer
 		EntityModelLayerRegistry.registerModelLayer(ModModelLayers.HAMSTER_MOB) {
 			HamsterModel.createBodyLayer()
